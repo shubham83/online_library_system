@@ -38,7 +38,7 @@ online_library_system/
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/PatelKathan089/Web-Projects.git
+    git clone https://github.com/shubham83/online_library_system.git
     ```
 
 2. Navigate to the project folder:

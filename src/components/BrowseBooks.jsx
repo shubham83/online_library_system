@@ -40,11 +40,11 @@ function BrowseBooks() {
 
   return (
     <>
-      <h1 className="text-center text-xl font-bold mt-1.5">
+      <h1 className="text-center text-xl font-bold mt-1.5 bg-sky-500">
         Browse Books based on category or author/title
       </h1>
-      <div className="flex flex-col-reverse lg:flex-row xl:mx-42 items-center gap-2 mt-4 p-1">
-        <div className="w-full md:w-[80%] lg:w-[40%] flex items-center justify-center md:justify-normal md:px-2 gap-2.5 p-1 lg:mx-2">
+      <div className="flex flex-col-reverse lg:flex-row xl:mx-42 items-center gap-2 mt-4 p-1 ">
+        <div className="w-full md:w-[80%] lg:w-[40%] flex items-center justify-center md:justify-normal md:px-2 gap-2.5 p-1 lg:mx-2 ">
           <h4 className="font-medium">Select Category:</h4>
           <select
             onChange={handleSelect}
@@ -71,7 +71,7 @@ function BrowseBooks() {
           </div>
         </div>
       </div>
-      <div className="cardContainer flex flex-col flex-wrap md:flex-row md:justify-center gap-2.5 md:gap-8 items-center mt-8">
+      <div className="cardContainer flex flex-col flex-wrap md:flex-row md:justify-center gap-2.5 md:gap-8 items-center mt-8 bg-sky-300">
         {filteredBooks.length > 0 ? (
           filteredBooks.map((book) => {
             return <BookCard key={book.id} book={book} />;

@@ -34,7 +34,7 @@ function AddBooks() {
 
   return (
     <>
-      <h1 className="text-center font-bold text-xl mt-2.5">Add a New Book</h1>
+      <h1 className="text-center font-bold text-xl mt-2.5 bg-sky-500~">Add a New Book</h1>
       <p className="text-red-500 text-center font-semibold mt-1">
         {error !== null && error}
       </p>
